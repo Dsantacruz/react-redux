@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server/bin/webpack-dev-server.js"
   },
-  "author": "Unodepiera",
+  "author": "Diego Santa Cruz",
   "license": "ISC",
   "dependencies": {
     "react": "^15.1.0",
