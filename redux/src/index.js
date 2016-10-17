@@ -6,7 +6,7 @@ import React from 'react';
 //Permitirá hacer el render de nuestra aplicación
 import { render } from 'react-dom';
 
-//Provider pasar el store
+//Provider pasar el store (Manejar los datos de la aplicacion) 
 import { Provider } from 'react-redux';
 
 //Crear nuestra store donde esta almacenado el estado
@@ -20,3 +20,10 @@ import App from './components/App';
 let store = createStore(reducer);
 
 //store.dispatch(addItem('Nuevo Item'));
+
+render(
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    document.getElementById("app")
+)
