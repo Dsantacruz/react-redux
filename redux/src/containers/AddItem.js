@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { addItem } from '../actions'
 
-let AddItem = ({dispatch}) => {
+let AddItem = ({dispatch}) => {console.log("containers addItem.js");
     let input;
 
     return (

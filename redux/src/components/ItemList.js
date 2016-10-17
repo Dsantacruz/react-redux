@@ -2,6 +2,9 @@ import React, { PropTypes } from 'react';
 import Item from './Item';
 
 const ItemList = ({items, onItemClick}) => {
+  console.log("renderear itemlist");
+  console.log(items);
+  console.log(onItemClick);
   return (
       <ul className="list-group col-md-6 col-md-offset-3">
         {items.map(item =>

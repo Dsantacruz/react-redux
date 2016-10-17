@@ -3,6 +3,8 @@
  */
 //Estado anterior y la accion , devuelve el nuevo estado, tendrá un switch para comprobar el action.type
 const item = (state, action) => {
+  console.log("pasa item");
+  console.log(state);
   switch (action.type)
   {
     case 'ADD_ITEM':
@@ -18,6 +20,9 @@ const item = (state, action) => {
 }
 
 const items = (state = [], action) => {
+  console.log("pasa items");
+  console.log(state);
+  console.log(action);
   switch (action.type)
   {
     case 'ADD_ITEM':

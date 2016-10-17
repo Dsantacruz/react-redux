@@ -2,6 +2,8 @@ import { connect } from 'react-redux';
 import ItemList from '../components/ItemList'
 
 const mapStateToProps = (state) => {
+	console.log("mapstatetoprops");
+	console.log(state);
     return {
         items: state.items
     }

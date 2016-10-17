@@ -5,6 +5,8 @@
 import { combineReducers } from 'redux';
 import items from './items';
 
+console.log("antes de combinereducers");
 export default combineReducers({
     items
 });
+console.log("Despues de combinereducers");

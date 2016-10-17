@@ -4,6 +4,8 @@
 let nextId = 0;
 
 export const addItem = (text) => {
+	console.log("actions addItem");
+	console.log(text);
   return {
     type: 'ADD_ITEM',
     id: nextId++,
